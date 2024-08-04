@@ -2,7 +2,7 @@
 // Created by kitsc on 2024/8/4.
 //
 
-#include "Stack.h"
+#include "SqStack.h"
 
 int main() {
     SqStack S;

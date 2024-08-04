@@ -2,7 +2,7 @@
 // Created by kitsc on 2024/8/4.
 //
 
-#include "Stack.h"
+#include "SqStack.h"
 
 // 初始化一个栈
 bool InitSqStack(SqStack *S) {

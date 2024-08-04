@@ -3,7 +3,7 @@ project(Stack_and_Queue)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SRC_LIST Stack/test01.c;Stack/Stack.h;Stack/Stack.c)
+set(SRC_LIST SqStack/test01.c;SqStack/SqStack.h;SqStack/SqStack.c)
 
 set(EXECUTABLE_OUTPUT_PATH  ${CMAKE_CURRENT_BINARY_DIR}/bin)
 
