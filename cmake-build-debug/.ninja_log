@@ -1,0 +1,4 @@
+# ninja log v6
+0	72	7444857806549092	CMakeFiles/teat01.dir/Stack/test01.c.obj	f6bd1da07ec7ef83
+5	87	7444857806599091	CMakeFiles/teat01.dir/Stack/Stack.c.obj	cea4f8be7d3da881
+87	156	7444857807419063	bin/teat01.exe	5a50f2ca49d2a570
