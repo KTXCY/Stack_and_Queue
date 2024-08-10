@@ -8,7 +8,7 @@ bool InitSqQueue(SqQueue *Q) {
     if (Q == NULL) {
         return false;
     }
-    Q->base = (SElemTye *) malloc(sizeof(SElemTye) * MAXSIZE);
+    Q->base = (QElemTye *) malloc(sizeof(QElemTye) * MAXSIZE);
     if (Q->base == NULL) {
         return false;
     }
@@ -28,7 +28,7 @@ bool DesSqQueue(SqQueue *Q) {
     return true;
 }
 
-bool EnQueue(SqQueue *Q, SElemTye e) {
+bool EnQueue(SqQueue *Q, QElemTye e) {
     if (Q == NULL || Q->base == NULL) {
         return false;
     }
@@ -71,7 +71,7 @@ int LenQueue(SqQueue Q) {
     return ((Q.rear - Q.front + MAXSIZE) % MAXSIZE);
 }
 
-SElemTye GetTop(SqQueue Q) {
+QElemTye GetTop(SqQueue Q) {
     if (Q.front != Q.rear) {
         return Q.base[Q.front];
     }

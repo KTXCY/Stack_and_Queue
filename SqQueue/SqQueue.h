@@ -13,10 +13,10 @@
 
 
 
-typedef int SElemTye;
+typedef int QElemTye;
 
 typedef struct SqQueue {
-    SElemTye *base;
+    QElemTye *base;
     size_t front;
     size_t rear;
 } SqQueue;
@@ -26,7 +26,7 @@ bool InitSqQueue(SqQueue *Q);
 
 bool DesSqQueue(SqQueue *Q);
 
-bool EnQueue(SqQueue *Q, SElemTye e);
+bool EnQueue(SqQueue *Q, QElemTye e);
 
 bool DesQueue(SqQueue *Q);
 
@@ -34,7 +34,7 @@ void Print(SqQueue Q);
 
 int LenQueue(SqQueue Q);
 
-SElemTye GetTop(SqQueue Q);
+QElemTye GetTop(SqQueue Q);
 
 
 #endif //SQQUEUE_H
