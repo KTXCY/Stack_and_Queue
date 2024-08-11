@@ -72,7 +72,7 @@ void Print(LinkQueue Q) {
     printf("\n");
 }
 
-int LenghtQueue(LinkQueue Q) {
+int LengthQueue(LinkQueue Q) {
     if (Q.front == Q.rear) {
         return 0;
     } else {

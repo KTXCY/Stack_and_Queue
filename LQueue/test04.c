@@ -18,7 +18,7 @@ int main()
 
     DeQueue(&Q);
     Print(Q);
-    int c = LenghtQueue(Q);
+    int c = LengthQueue(Q);
     printf("%d\n", c);
 
     int b = 0;

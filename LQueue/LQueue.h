@@ -32,7 +32,7 @@ bool DeQueue(LinkQueue *Q);
 
 void Print(LinkQueue Q);
 
-int LenghtQueue(LinkQueue Q);
+int LengthQueue(LinkQueue Q);
 
 bool GetHead(LinkQueue Q, QElemType *e);
 
